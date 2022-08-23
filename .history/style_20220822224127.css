@@ -1,5 +1,5 @@
 body {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #0f0c29;
   color: #fcdada;
 }
@@ -31,15 +31,4 @@ h1 {
 #container div img {
   box-shadow: 0 10px 6px -6px rgba(6, 4, 12, 0.801);
   max-width: 300px;
-  height: 450px;
-  border-radius: 5px;
-  transition: transform 0.5s ease;
-}
-#container div img:hover {
-  transform: scale(1.1);
-}
-
-h2 {
-  margin-bottom: 20px;
-  margin-top: auto;
 }
