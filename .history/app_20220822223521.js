@@ -20,14 +20,14 @@ fetch(
         const image = element.i.imageUrl
         const cast = element.s
         
-        const card = `
+        const poster = `
             <div>
                 <img src="${image}" />
                 <h2>${title}</h2>
                 <small>${cast}</small>
             </div>            
         `
-        document.getElementById('container').innerHTML += card
+        document.getElementById('container').innerHTML += poster
     })
   })
 
